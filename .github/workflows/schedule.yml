@@ -9,7 +9,8 @@ on:
       - master
   schedule:
     - cron: "0 * * * *"
-    
+  watch:
+    types: [started]
 
 jobs:
 
